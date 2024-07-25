@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircleOff, CircleDot, CircleSlash2, CircleEqual } from 'lucide-react';
+import { CircleDot, CircleSlash2, CircleEqual } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -30,8 +30,7 @@ const Index = () => {
 
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Key Facts</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FactCard icon={<CircleOff />} title="Size" description="About 1/6 the mass of Earth's moon" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FactCard icon={<CircleDot />} title="Distance" description="Average of 3.7 billion miles from the Sun" />
           <FactCard icon={<CircleSlash2 />} title="Orbit" description="248 Earth years to orbit the Sun" />
           <FactCard icon={<CircleEqual />} title="Moons" description="5 known moons, largest being Charon" />
